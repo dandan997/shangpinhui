@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"],
+            "components/*":["src/components/*"]
+
+        }
+    },
+    //设置别名，且输入路径时有提示
+    "exclude": ["node_modules","dist"]
+}
